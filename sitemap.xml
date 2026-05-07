@@ -3,9 +3,31 @@
   <url>
     <loc>https://www.iwantawebsite.org/</loc>
     <priority>1.0</priority>
+    <changefreq>weekly</changefreq>
   </url>
   <url>
     <loc>https://www.iwantawebsite.org/electrician-example.html</loc>
     <priority>0.8</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.iwantawebsite.org/blog.html</loc>
+    <priority>0.8</priority>
+    <changefreq>weekly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.iwantawebsite.org/blog-1.html</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.iwantawebsite.org/blog-2.html</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+  </url>
+  <url>
+    <loc>https://www.iwantawebsite.org/blog-3.html</loc>
+    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
   </url>
 </urlset>
