@@ -1,104 +1,151 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-<title>Blog — Electrician Marketing & Website Tips | iWantAWebsite.org</title>
-<meta name="description" content="Free guides and tips for electricians on how to get more customers, rank on Google, and grow their electrical business with a professional website."/>
-<meta name="keywords" content="electrician marketing tips, how to get more customers as an electrician, electrician website tips, grow electrical business"/>
+<title>Blog — Website Tips for Local Businesses | iWantAWebsite.org</title>
+<meta name="description" content="Practical guides for electricians, dentists, and local business owners on getting found on Google, AI search, and growing your business with a professional website."/>
+<meta name="robots" content="index, follow"/>
 <link rel="canonical" href="https://www.iwantawebsite.org/blog.html"/>
-<meta property="og:title" content="Blog — Electrician Marketing & Website Tips | iWantAWebsite.org"/>
-<meta property="og:description" content="Free guides for electricians on getting more customers, ranking on Google, and growing their business online."/>
+<meta property="og:title" content="Blog — Website Tips for Local Businesses | iWantAWebsite.org"/>
+<meta property="og:description" content="Practical guides for electricians, dentists, and local business owners on getting found online and growing with a professional website."/>
 <meta property="og:url" content="https://www.iwantawebsite.org/blog.html"/>
 <meta property="og:type" content="website"/>
 <link rel="preconnect" href="https://fonts.googleapis.com"/>
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
-<link href="https://fonts.googleapis.com/css2?family=Syne:wght@700;800&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet"/>
 <style>
-  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-  :root { --ink: #0C0F14; --ink2: #1C2330; --amber: #F5A623; --white: #FFFFFF; --border: rgba(255,255,255,0.10); --muted: rgba(255,255,255,0.6); --radius: 14px; }
-  html { scroll-behavior: smooth; }
-  body { font-family: 'DM Sans', sans-serif; background: var(--ink); color: var(--white); line-height: 1.65; overflow-x: hidden; }
-  nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; display: flex; align-items: center; justify-content: space-between; padding: 1rem 6vw; background: rgba(12,15,20,0.92); backdrop-filter: blur(14px); border-bottom: 0.5px solid var(--border); }
-  .logo { font-family: 'Syne', sans-serif; font-size: 1.25rem; font-weight: 800; color: var(--amber); text-decoration: none; }
-  .logo span { color: var(--white); }
-  nav ul { list-style: none; display: flex; gap: 2rem; }
-  nav ul a { color: rgba(255,255,255,0.72); font-size: 0.88rem; font-weight: 500; text-decoration: none; transition: color 0.2s; }
-  nav ul a:hover { color: var(--amber); }
-  .nav-cta { background: var(--amber); color: var(--ink) !important; padding: 0.5rem 1.3rem; border-radius: 40px; font-weight: 700 !important; }
-  .page-header { padding: 9rem 6vw 4rem; text-align: center; }
-  .page-header .label { display: inline-block; color: var(--amber); font-size: 0.78rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 0.8rem; }
-  .page-header h1 { font-family: 'Syne', sans-serif; font-size: clamp(2rem, 4vw, 3rem); font-weight: 800; letter-spacing: -0.03em; margin-bottom: 1rem; }
-  .page-header p { font-size: 1rem; color: var(--muted); max-width: 500px; margin: 0 auto; }
-  .blog-grid { max-width: 1100px; margin: 0 auto; padding: 3rem 6vw 6rem; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.8rem; }
-  .blog-card { background: var(--ink2); border: 0.5px solid rgba(255,255,255,0.08); border-radius: var(--radius); overflow: hidden; transition: border-color 0.3s, transform 0.3s; text-decoration: none; display: flex; flex-direction: column; }
-  .blog-card:hover { border-color: rgba(245,166,35,0.4); transform: translateY(-4px); }
-  .blog-card-img { background: linear-gradient(135deg, #0C1F3D, #1A3A6A); height: 160px; display: flex; align-items: center; justify-content: center; font-size: 3.5rem; }
-  .blog-card-body { padding: 1.5rem; flex: 1; display: flex; flex-direction: column; }
-  .blog-tag { font-size: 0.72rem; font-weight: 700; color: var(--amber); text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.6rem; }
-  .blog-card-body h2 { font-family: 'Syne', sans-serif; font-size: 1.1rem; font-weight: 700; line-height: 1.3; margin-bottom: 0.7rem; color: var(--white); }
-  .blog-card-body p { font-size: 0.85rem; color: var(--muted); line-height: 1.65; flex: 1; }
-  .blog-read-more { display: inline-block; margin-top: 1.2rem; font-size: 0.82rem; font-weight: 700; color: var(--amber); }
-  footer { background: var(--ink2); border-top: 0.5px solid rgba(255,255,255,0.08); padding: 2rem 6vw; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
-  .footer-logo { font-family: 'Syne', sans-serif; font-weight: 800; font-size: 1.1rem; }
-  .footer-logo span { color: var(--amber); }
-  footer p { font-size: 0.8rem; color: rgba(255,255,255,0.45); }
-  footer a { color: rgba(255,255,255,0.55); text-decoration: none; }
-  @media (max-width: 768px) { nav ul { display: none; } footer { flex-direction: column; text-align: center; } }
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+:root{--bg:#08090A;--bg2:#111318;--bg3:#181C23;--card:#1A1F28;--border:rgba(255,255,255,0.07);--border2:rgba(255,255,255,0.12);--text:#F0F2F5;--muted:rgba(240,242,245,0.55);--muted2:rgba(240,242,245,0.35);--gold:#F0B429;--green:#22C55E;--teal:#0FA4AF;--r:12px;--r2:20px}
+html{scroll-behavior:smooth}
+body{font-family:'Inter',sans-serif;background:var(--bg);color:var(--text);line-height:1.6;overflow-x:hidden;-webkit-font-smoothing:antialiased}
+nav{position:fixed;top:0;left:0;right:0;z-index:200;display:flex;align-items:center;justify-content:space-between;padding:0 6vw;height:64px;background:rgba(8,9,10,0.88);backdrop-filter:blur(20px);border-bottom:0.5px solid var(--border)}
+.nav-logo{font-size:1.1rem;font-weight:800;color:var(--gold);text-decoration:none;letter-spacing:-0.02em}
+.nav-logo span{color:var(--text)}
+.nav-links{display:flex;align-items:center;gap:1.8rem}
+.nav-links a{color:var(--muted);font-size:0.85rem;font-weight:500;text-decoration:none;transition:color .2s}
+.nav-links a:hover,.nav-links a.active{color:var(--text)}
+.nav-btn{background:var(--gold);color:#000;font-weight:700;font-size:0.85rem;padding:0.5rem 1.2rem;border-radius:40px;text-decoration:none}
+.blog-hero{padding:120px 6vw 60px;background:var(--bg2);border-bottom:0.5px solid var(--border)}
+.blog-hero-inner{max-width:860px;margin:0 auto}
+.blog-label{font-size:0.72rem;font-weight:700;letter-spacing:0.1em;text-transform:uppercase;color:var(--gold);margin-bottom:0.6rem}
+.blog-hero h1{font-size:clamp(2rem,4vw,3rem);font-weight:900;letter-spacing:-0.04em;line-height:1.1;margin-bottom:1rem}
+.blog-hero p{font-size:1rem;color:var(--muted);line-height:1.75;max-width:580px}
+.blog-main{padding:60px 6vw 80px;max-width:1100px;margin:0 auto}
+.posts-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.5rem}
+.post-card{background:var(--card);border:0.5px solid var(--border);border-radius:var(--r2);overflow:hidden;transition:border-color .3s,transform .3s;text-decoration:none;color:var(--text);display:flex;flex-direction:column}
+.post-card:hover{border-color:rgba(240,180,41,0.35);transform:translateY(-3px)}
+.post-card-tag{display:inline-flex;align-items:center;gap:0.4rem;font-size:0.65rem;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;padding:0.25rem 0.7rem;border-radius:20px;margin-bottom:0.8rem;width:fit-content}
+.tag-seo{background:rgba(240,180,41,0.1);border:0.5px solid rgba(240,180,41,0.3);color:var(--gold)}
+.tag-google{background:rgba(59,130,246,0.1);border:0.5px solid rgba(59,130,246,0.3);color:#60A5FA}
+.tag-ai{background:rgba(139,92,246,0.1);border:0.5px solid rgba(139,92,246,0.3);color:#A78BFA}
+.post-card-body{padding:1.8rem;flex:1;display:flex;flex-direction:column}
+.post-card h2{font-size:1.05rem;font-weight:700;line-height:1.4;margin-bottom:0.6rem;letter-spacing:-0.02em}
+.post-card p{font-size:0.85rem;color:var(--muted);line-height:1.7;flex:1;margin-bottom:1.2rem}
+.post-meta{font-size:0.72rem;color:var(--muted2);margin-bottom:0.8rem}
+.post-cta{font-size:0.82rem;font-weight:700;color:var(--gold)}
+.post-icon{font-size:2.5rem;padding:1.5rem 1.8rem 0}
+.featured-post{background:var(--card);border:0.5px solid rgba(240,180,41,0.25);border-radius:var(--r2);padding:2.5rem;margin-bottom:2rem;display:grid;grid-template-columns:1fr 1fr;gap:3rem;align-items:center;text-decoration:none;color:var(--text);transition:border-color .3s,transform .3s}
+.featured-post:hover{border-color:rgba(240,180,41,0.5);transform:translateY(-2px)}
+.featured-badge{display:inline-block;background:rgba(240,180,41,0.1);border:0.5px solid rgba(240,180,41,0.3);color:var(--gold);font-size:0.65rem;font-weight:700;letter-spacing:0.07em;text-transform:uppercase;padding:0.25rem 0.7rem;border-radius:20px;margin-bottom:1rem}
+.featured-post h2{font-size:1.5rem;font-weight:800;letter-spacing:-0.03em;line-height:1.25;margin-bottom:0.8rem}
+.featured-post p{font-size:0.9rem;color:var(--muted);line-height:1.75;margin-bottom:1.5rem}
+.featured-visual{background:var(--bg3);border-radius:var(--r);font-size:5rem;text-align:center;display:flex;align-items:center;justify-content:center;min-height:180px}
+.btn-gold-sm{display:inline-flex;align-items:center;gap:0.5rem;background:var(--gold);color:#000;font-weight:700;font-size:0.88rem;padding:0.7rem 1.5rem;border-radius:40px;text-decoration:none}
+.blog-cta{background:var(--bg2);border-top:0.5px solid var(--border);padding:4rem 6vw;text-align:center}
+.blog-cta h2{font-size:1.8rem;font-weight:900;letter-spacing:-0.03em;margin-bottom:0.8rem}
+.blog-cta h2 em{font-style:normal;color:var(--gold)}
+.blog-cta p{color:var(--muted);font-size:0.95rem;max-width:480px;margin:0 auto 2rem;line-height:1.75}
+footer{background:var(--bg);border-top:0.5px solid var(--border);padding:2rem 6vw;text-align:center}
+.footer-logo{font-size:1rem;font-weight:800;color:var(--gold);margin-bottom:0.8rem}
+.footer-logo span{color:var(--text)}
+.footer-links{display:flex;justify-content:center;flex-wrap:wrap;gap:0.5rem 1.5rem;margin-bottom:0.8rem}
+.footer-links a{color:var(--muted);font-size:0.82rem;text-decoration:none}
+footer p{font-size:0.72rem;color:var(--muted2)}
+@media(max-width:768px){.featured-post{grid-template-columns:1fr}.featured-visual{display:none}.nav-links{display:none}nav{padding:0 4vw}}
 </style>
 </head>
 <body>
 <nav>
-  <a href="index.html" class="logo">iWantA<span>Website</span>.org</a>
-  <ul>
-    <li><a href="index.html#benefits">Why You Need One</a></li>
-    <li><a href="index.html#how">How It Works</a></li>
-    <li><a href="index.html#pricing">Pricing</a></li>
-    <li><a href="blog.html">Blog</a></li>
-    <li><a href="index.html#pricing" class="nav-cta">Get Started — $499</a></li>
-  </ul>
+  <a href="index.html" class="nav-logo">iWantA<span>Website</span>.org</a>
+  <div class="nav-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#what">What's Included</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="blog.html" class="active">Blog</a>
+  </div>
+  <a href="https://www.paypal.com/ncp/payment/PX2CWBBVYYDPL" class="nav-btn" target="_blank" rel="noopener">Get My Website — $499</a>
 </nav>
 
-<div class="page-header">
-  <div class="label">Free Resources</div>
-  <h1>Tips to Grow Your<br>Electrical Business Online</h1>
-  <p>Practical guides written for electricians — no jargon, no fluff.</p>
+<div class="blog-hero">
+  <div class="blog-hero-inner">
+    <div class="blog-label">The iWantAWebsite Blog</div>
+    <h1>Grow your local business<br>with the right online presence</h1>
+    <p>Practical guides for electricians, dentists, and local service businesses on getting found on Google, AI search, and converting visitors into paying customers.</p>
+  </div>
 </div>
 
-<div class="blog-grid">
-  <a href="blog-1.html" class="blog-card">
-    <div class="blog-card-img">⚡</div>
-    <div class="blog-card-body">
-      <div class="blog-tag">Getting Online</div>
-      <h2>Why Every Electrician in the USA Needs a Website in 2025</h2>
-      <p>87% of homeowners search online before hiring a tradesman. If you don't have a website, you're handing those customers to your competitors — every single day.</p>
-      <span class="blog-read-more">Read Article →</span>
+<div class="blog-main">
+  <a href="blog-electrician-website.html" class="featured-post">
+    <div>
+      <div class="featured-badge">⭐ Most Popular</div>
+      <h2>Why Every Electrician Needs a Website in 2025 (And What Happens If You Don't)</h2>
+      <p>87% of homeowners search online before hiring an electrician. If you don't have a website, you're invisible to the majority of your potential customers — and your competitors are getting those calls instead.</p>
+      <div class="btn-gold-sm">Read Article →</div>
     </div>
+    <div class="featured-visual">⚡</div>
   </a>
-  <a href="blog-2.html" class="blog-card">
-    <div class="blog-card-img">🔍</div>
-    <div class="blog-card-body">
-      <div class="blog-tag">Google & SEO</div>
-      <h2>How to Get Your Electrical Business to Show Up on Google</h2>
-      <p>Ranking on Google for "electrician near me" in your city is one of the most powerful ways to get new customers. Here's exactly how it works.</p>
-      <span class="blog-read-more">Read Article →</span>
-    </div>
-  </a>
-  <a href="blog-3.html" class="blog-card">
-    <div class="blog-card-img">🏆</div>
-    <div class="blog-card-body">
-      <div class="blog-tag">Website Tips</div>
-      <h2>5 Things Every Electrician Website Must Have to Win Customers</h2>
-      <p>Most electrician websites lose customers within the first 10 seconds. Here are the 5 things your website must have to turn visitors into paying jobs.</p>
-      <span class="blog-read-more">Read Article →</span>
-    </div>
-  </a>
+  <div class="posts-grid">
+    <a href="blog-dentist-website.html" class="post-card">
+      <div class="post-icon">🦷</div>
+      <div class="post-card-body">
+        <div class="post-card-tag tag-seo">SEO · Dentists</div>
+        <div class="post-meta">8 min read</div>
+        <h2>How Dentists Can Get More Patients Through Google — Without Paying for Ads</h2>
+        <p>97% of patients Google their dentist before booking. Here's exactly how a properly built website puts you at the top of those search results and fills your appointment calendar.</p>
+        <div class="post-cta">Read Article →</div>
+      </div>
+    </a>
+    <a href="blog-google-lsa-credits.html" class="post-card">
+      <div class="post-icon">💰</div>
+      <div class="post-card-body">
+        <div class="post-card-tag tag-google">Google Ads · LSA</div>
+        <div class="post-meta">6 min read</div>
+        <h2>Google Local Service Ads: How to Claim Free Advertising Credits for Your Business</h2>
+        <p>Google gives new Local Service Ads accounts hundreds of dollars in free advertising credits — but most small business owners have never heard of it. Here's how to claim yours.</p>
+        <div class="post-cta">Read Article →</div>
+      </div>
+    </a>
+    <a href="blog-ai-search.html" class="post-card">
+      <div class="post-icon">🤖</div>
+      <div class="post-card-body">
+        <div class="post-card-tag tag-ai">AI Search · New</div>
+        <div class="post-meta">5 min read</div>
+        <h2>Your Business Isn't Showing Up on ChatGPT or Google Gemini — Here's Why</h2>
+        <p>Millions of people now ask AI assistants to recommend local businesses. If you don't have a website, you don't exist in AI search results. Here's what you need to fix that.</p>
+        <div class="post-cta">Read Article →</div>
+      </div>
+    </a>
+  </div>
+</div>
+
+<div class="blog-cta">
+  <h2>Ready to get your business<br><em>found online?</em></h2>
+  <p>A professional website, local SEO, and Google LSA setup — all done for you in one week for a one-time $499 fee.</p>
+  <a href="https://www.paypal.com/ncp/payment/PX2CWBBVYYDPL" class="btn-gold-sm" target="_blank" rel="noopener">Get My Website — $499 →</a>
 </div>
 
 <footer>
   <div class="footer-logo">iWantA<span>Website</span>.org</div>
+  <div class="footer-links">
+    <a href="index.html">Home</a>
+    <a href="index.html#pricing">Pricing</a>
+    <a href="electrician-example.html" target="_blank">Electrician Example</a>
+    <a href="dentist-example.html" target="_blank">Dentist Example</a>
+    <a href="blog.html">Blog</a>
+    <a href="mailto:contact@iwantawebsite.org">contact@iwantawebsite.org</a>
+  </div>
   <p>© 2025 iWantAWebsite.org. All rights reserved.</p>
-  <p><a href="mailto:contact@iwantawebsite.org">contact@iwantawebsite.org</a></p>
 </footer>
 </body>
 </html>
