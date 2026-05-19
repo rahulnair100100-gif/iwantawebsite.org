@@ -1,25 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-
-  <url>
-    <loc>https://www.iwantawebsite.org/</loc>
-    <lastmod>2025-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>1.0</priority>
-  </url>
-
-  <url>
-    <loc>https://www.iwantawebsite.org/electrician-example.html</loc>
-    <lastmod>2025-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
-  <url>
-    <loc>https://www.iwantawebsite.org/dentist-example.html</loc>
-    <lastmod>2025-05-19</lastmod>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
-  </url>
-
+  <url><loc>https://www.iwantawebsite.org/</loc><lastmod>2025-05-19</lastmod><changefreq>monthly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://www.iwantawebsite.org/electrician-example.html</loc><lastmod>2025-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.iwantawebsite.org/dentist-example.html</loc><lastmod>2025-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.iwantawebsite.org/blog.html</loc><lastmod>2025-05-19</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://www.iwantawebsite.org/blog-electrician-website.html</loc><lastmod>2025-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.iwantawebsite.org/blog-dentist-website.html</loc><lastmod>2025-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.iwantawebsite.org/blog-google-lsa-credits.html</loc><lastmod>2025-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
+  <url><loc>https://www.iwantawebsite.org/blog-ai-search.html</loc><lastmod>2025-05-19</lastmod><changefreq>monthly</changefreq><priority>0.7</priority></url>
 </urlset>
