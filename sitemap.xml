@@ -1,39 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
   <url>
     <loc>https://www.iwantawebsite.org/</loc>
-    <lastmod>2026-05-18</lastmod>
+    <lastmod>2025-05-19</lastmod>
+    <changefreq>monthly</changefreq>
     <priority>1.0</priority>
-    <changefreq>weekly</changefreq>
   </url>
+
   <url>
     <loc>https://www.iwantawebsite.org/electrician-example.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <priority>0.8</priority>
+    <lastmod>2025-05-19</lastmod>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.iwantawebsite.org/blog.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <priority>0.8</priority>
-    <changefreq>weekly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.iwantawebsite.org/blog-1.html</loc>
-    <lastmod>2026-05-18</lastmod>
     <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
   </url>
+
   <url>
-    <loc>https://www.iwantawebsite.org/blog-2.html</loc>
-    <lastmod>2026-05-18</lastmod>
-    <priority>0.7</priority>
+    <loc>https://www.iwantawebsite.org/dentist-example.html</loc>
+    <lastmod>2025-05-19</lastmod>
     <changefreq>monthly</changefreq>
-  </url>
-  <url>
-    <loc>https://www.iwantawebsite.org/blog-3.html</loc>
-    <lastmod>2026-05-18</lastmod>
     <priority>0.7</priority>
-    <changefreq>monthly</changefreq>
   </url>
+
 </urlset>
